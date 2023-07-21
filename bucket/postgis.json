@@ -12,7 +12,7 @@
     },
     "depends": "postgresql",
     "pre_install": [
-        "Copy-Item $dir\\$version\\* \"$scoopdir\\apps\\postgresql\\current\" -Force"
+        "Copy-Item $dir\\* \"$scoopdir\\apps\\postgresql\\current\" -Force"
     ],
     "bin": [
         "bin\\ogrinfo.exe",
