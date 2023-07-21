@@ -11,9 +11,7 @@
         }
     },
     "depends": "postgresql",
-    "pre_install": [
-        "Copy-Item $dir \"$scoopdir\\apps\\postgresql\\current\""
-    ],
+    "extract_to": "$scoopdir\\apps\\postgresql\\current",
     "bin": [
         "bin\\ogrinfo.exe",
         "bin\\ogr2ogr.exe",
