@@ -1,19 +1,17 @@
 {
-    "version": "pg15-3.3.3",
+    "version": "3.4.0",
     "description": "Spatial database extension to PostgreSQL.",
     "license": "GPL-2.0-only",
     "homepage": "https://postgis.net",
     "architecture": {
         "64bit": {
-            "url": "https://download.osgeo.org/postgis/windows/pg15/postgis-bundle-pg15-3.3.3x64.zip",
-            "hash": "72994B6998331EB1C973BDD3302EF94FB4CAC840BEBEEBC86A6AEE1B72B96DA1",
-            "extract_dir": "postgis-bundle-pg15-3.3.3x64"
+            "url": "https://download.osgeo.org/postgis/windows/pg15/postgis-bundle-pg15-3.4.0x64.zip",
+            "hash": "ebd7c0c87954a03a7b5e6cc6abb0c01722df495e21d9ada026130338d1075805",
+            "extract_dir": "postgis-bundle-3.4.0x64"
         }
     },
     "depends": "postgresql",
-    "pre_install": [
-        "Copy-Item $dir\\* \"$scoopdir\\apps\\postgresql\\current\" -Force"
-    ],
+    "pre_install": "Copy-Item $dir\\* \"$scoopdir\\apps\\postgresql\\current\" -Force",
     "bin": [
         "bin\\ogrinfo.exe",
         "bin\\ogr2ogr.exe",
@@ -38,7 +36,5 @@
             }
         }
     },
-    "notes": [
-        "To add the extension to the database, run 'CREATE EXTENSION postgis' in `psql`."
-    ]
+    "notes": "To add the extension to the database, run 'CREATE EXTENSION postgis' in `psql`."
 }
