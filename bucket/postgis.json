@@ -28,7 +28,7 @@
     ],
     "checkver": {
         "url": "https://download.osgeo.org/postgis/windows/pg15/",
-        "regex": "<a href=\"postgis-bundle-(pg15-[-([0-9].[0-9].[0-9])x64.zip\""
+        "regex": "<a href=\"postgis-bundle-pg15-([0-9].[0-9].[0-9])x64.zip\""
     },
     "autoupdate": {
         "architecture": {
