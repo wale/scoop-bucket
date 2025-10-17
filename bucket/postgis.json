@@ -1,13 +1,13 @@
 {
-    "version": "3.4.2",
+    "version": "3.5.3",
     "description": "Spatial database extension to PostgreSQL.",
     "license": "GPL-2.0-only",
     "homepage": "https://postgis.net",
     "architecture": {
         "64bit": {
-            "url": "https://download.osgeo.org/postgis/windows/pg15/postgis-bundle-pg15-3.4.2x64.zip",
-            "hash": "f63926aeeeadf56f400023127cc9808ae74393598d4c5951eb18be23da53826b",
-            "extract_dir": "postgis-bundle-3.4.2x64"
+            "url": "https://download.osgeo.org/postgis/windows/pg15/postgis-bundle-pg15-3.5.3x64.zip",
+            "hash": "4087263d2152a6019c42eb92b847ace932144b45fa5a5a12cc966e3435cd844e",
+            "extract_dir": "postgis-bundle-3.5.3x64"
         }
     },
     "depends": "postgresql",
